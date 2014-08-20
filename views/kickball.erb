@@ -1,0 +1,8 @@
+<h1> Kickball Homepage </h1>
+<ul>
+<% @team.each do |teams| %>
+<li>
+  <a href='/team/<%=teams%>'><%=teams %></a>
+</li>
+<% end %>
+</ul>
